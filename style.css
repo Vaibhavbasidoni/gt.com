@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppines',sans-serif;
+    box-sizing: border-box;
+
+
+}
+.container{
+    
+    background-image: url(black.png.webp);
+    width:55%;
+   height:680px; 
+
+   background-position: bottom right;
+
+}
+
+.content
+{
+    margin-top: 10%;
+
+}
+.content h2{
+    color: red;
+    font-size: 50px;
+
+
+    
+
+}
+.color-select div{
+    background: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 90%;
+    margin-left: 10px;
+    
+}
+.color-select{
+    display: flex;
+    margin-top: 357px;
+    margin-left: 38%;
+}
+.color-select #red{
+    background: red;
+    
+}
+.color-select #black{
+    background: black;
+        
+}
+.color-select #grey{
+    background: grey;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTTTTT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="bike">
+        <nav>
+            <img src="logo.png.png" class="logo">
+        </nav>
+            <div class="content">
+        <h1>THE CONTINENTAL GT</h1>
+        <br>
+        <br>
+        <P>                    nodo bsdk yad bek choose madko patsi av noun.                </P>
+        <h3>choose your color</h3>
+        <div class="color-select">
+            <div id="red"></div>
+            <div id="black"></div>
+            <div id="grey"></div>
+        </div>   
+        <style>
+            h1{
+                position: absolute;
+                right: 150px;
+                top: 200px;
+            color: red;
+            font-size: 50px;
+
+            }
+            p{
+                position: absolute;
+                right: 100px;
+                color: black;
+                max-width: 400px;
+                font-weight: 700;
+                font-size: 20px;
+
+            }
+            h3{
+                position: absolute;
+                left: 300px;
+                bottom: 30px;
+                font-size: 600;
+}
+        </style>
+        </div>
+    </div>
+    <script>
+        let blackBtn = document.getElementById("black");
+        let redBtn = document.getElementById("red");
+        let greyBtn = document.getElementById("grey");
+        let bike = document.getElementById("bike");
+        blackBtn.onclick = function(){
+            bike.style.backgroundImage = "url(black.png.webp)";
+        }
+        redBtn.onclick = function(){
+            bike.style.backgroundImage = "url(red.png.png)";
+        }
+        greyBtn.onclick = function(){
+            bike.style.backgroundImage = "url(grey.png.webp)";
+        }
+        
+    </script>
+</body>
+</html>
